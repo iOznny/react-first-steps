@@ -1,11 +1,14 @@
 // Los componentes existen dos tipos por clases y por funciones.
-
-import React from 'react';
-
+import React, { Fragment } from 'react';
 
 // Functional Components
 const FisrtApp = () => {
-    return <h1>Hola Mundo</h1>;
+    return (
+        <Fragment>
+            <h1>Hola Mundo</h1>
+            <h1>Hola Mundo</h1>
+        </Fragment>
+    );
 }
 
 export default FisrtApp;
