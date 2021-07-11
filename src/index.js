@@ -5,4 +5,4 @@ import FisrtApp from './FirstApp';
 import './index.css';
 
 const divRoot = document.querySelector('#root');
-ReactDOM.render(<FisrtApp />, divRoot);
+ReactDOM.render(<FisrtApp saludo="hshs" />, divRoot);

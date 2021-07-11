@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react';
 
 // Functional Components
-const FisrtApp = () => {
+const FisrtApp = (props) => {
 
     const grettings = 'Hola Mundo const';
     const objectPerson = {
@@ -12,6 +12,7 @@ const FisrtApp = () => {
 
     return (
         <Fragment>
+            <h1>{ props.saludo }</h1>
             <h1>{ grettings }</h1>
             {/* <pre>{ JSON.stringify(objectPerson, null, 3) }</pre> */}
             <h1>Hola Mundo</h1>
