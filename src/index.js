@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 // Components
 import CounterApp from './CounterApp';
 //import FisrtApp from './FirstApp';
-
 import './index.css';
 
 const divRoot = document.querySelector('#root');
